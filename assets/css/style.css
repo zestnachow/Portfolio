@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: beige;
+}
+
+header {
+    border-bottom: 10px solid #aa8474;
+}
+
+header, footer {
+    height: 80px;
+    width: 100%;
+    line-height: 60px;
+    background-color: #749aaa;
+}
+
+.navbar, .navbar2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: right;
+}
+
+.name-box {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.menu, .menu2 {
+    display: flex;
+    gap: 25px;
+    font-size: 18px;
+}
+
+.menu li {
+    padding: 5px 14px;
+    display: inline;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.code {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+
+.Bio, .Work {
+    display: flex;
+    margin: 2px;
+}
+
+.Bio h1 {
+    font-size: 100px;
+    text-align: right;
+    border-right: 2px solid black;
+}
+
+.Bio p {
+    font-size: 28px;
+}
+
+.Bio img {
+    height: 500px;
+    width: 600px;
+    border-radius: 30%;
+    max-width:100%;
+    max-height: auto;
+}
+
+
+.Work h1 {
+    font-size: 125px;
+    text-align: right;
+    border-right: 2px solid black;
+}
+
+footer {
+    border-top: 10px solid #aa8474;
+}
+
+.menu2 li {
+    padding: 5px 14px;
+    display: inline;
+    list-style: none; 
+}
+
+
+
+
